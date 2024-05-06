@@ -1,3 +1,48 @@
-body {
-    color: purple;
+* {
+    padding: 5px;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    color: white;
+}
+
+.header ul {
+    display: inline-flex;
+    justify-self: center;
+}
+
+.header li {
+    padding: 10px;
+}
+
+.header a {
+    font-size: 25px;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+section ul {
+    display: inline-flex;
+}
+
+section li {
+    display: inline-flex;
+    width: 100%;
+justify-content: space-evenly;
 }
